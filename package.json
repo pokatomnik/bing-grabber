@@ -1,0 +1,30 @@
+{
+  "name": "bing-grabber",
+  "version": "0.1.0",
+  "description": "Bing search grabber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pokatomnik/bing-grabber.git"
+  },
+  "keywords": [
+    "bing",
+    "search",
+    "grab"
+  ],
+  "author": "pokatomnik <hugefast@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokatomnik/bing-grabber/issues"
+  },
+  "homepage": "https://github.com/pokatomnik/bing-grabber#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "then-request": "^2.2.0"
+  }
+}
