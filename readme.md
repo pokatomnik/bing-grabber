@@ -1,5 +1,7 @@
 A simple js library that fetches bing search results using dirty-way (directly from html)
 ------------------------------------------------------------------------
+![dependencies](https://david-dm.org/pokatomnik/bing-grabber.svg)
+
 **Installation**
 
 `npm install bing-grabber`
