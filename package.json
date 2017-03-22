@@ -1,10 +1,10 @@
 {
   "name": "bing-grabber",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bing search grabber",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test/index.js && istanbul cover test/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "search",
     "grab"
   ],
-  "author": "pokatomnik <hugefast@gmail.com>",
+  "author": "Danilian Achmedzianov <hugefast@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pokatomnik/bing-grabber/issues"
@@ -26,5 +26,10 @@
     "cheerio": "^0.22.0",
     "lodash": "^4.17.4",
     "then-request": "^2.2.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mock-require": "^2.0.1",
+    "testit": "^2.1.3"
   }
 }

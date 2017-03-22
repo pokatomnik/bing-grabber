@@ -6,6 +6,12 @@ A simple js library that fetches bing search results using dirty-way (directly f
 
 `npm install bing-grabber`
 
+**Tests**
+
+`npm test`
+
+**Just show me how it works!**
+
 Fetch some pages:
 
     var grabber = require('bing-grabber');
