@@ -1,6 +1,7 @@
 A simple js library that fetches bing search results using dirty-way (directly from html)
 ------------------------------------------------------------------------
 ![dependencies](https://david-dm.org/pokatomnik/bing-grabber.svg)
+[![Coverage Status](https://coveralls.io/repos/pokatomnik/bing-grabber/badge.svg?branch=master)](https://coveralls.io/r/pokatomnik/bing-grabber?branch=master)
 
 **Installation**
 
